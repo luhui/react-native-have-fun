@@ -20,7 +20,9 @@
     "actions": "file:./redux/actions",
     "reducers": "file:./redux/reducers",
     "sagas": "file:./sagas",
-    "scenes": "file:./scenes"
+    "scenes": "file:./scenes",
+    "redux-async-actions": "file:./utils/redux-async-actions",
+    "redux-action-type": "file:./utils/redux-action-type"
   },
   "devDependencies": {
     "babel-jest": "18.0.0",

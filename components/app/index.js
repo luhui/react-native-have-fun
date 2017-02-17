@@ -12,11 +12,16 @@ const mapStateToProps = (state) => ({
     {
       title: "Todo",
       action: 'showTodo'
+    },
+    {
+      title: 'AsyncTodo',
+      action: 'showAsyncTodo',
     }
   ]
 })
 const mapDispatchToProps = (dispatch) => ({
   showCaculator: () => Actions.caculator(),
   showTodo: () => Actions.todo(),
+  showAsyncTodo: () => Actions.todoAsync()
 })
 export default connect(mapStateToProps, mapDispatchToProps)(App)
