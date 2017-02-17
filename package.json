@@ -14,7 +14,12 @@
     "redux": "^3.6.0",
     "redux-actions": "^1.2.1",
     "redux-saga": "^0.14.3",
-    "reselect": "^2.5.4"
+    "reselect": "^2.5.4",
+    "component": "file:./components",
+    "actions": "file:./redux/actions",
+    "reducers": "file:./redux/reducers",
+    "sagas": "file:./sagas",
+    "scenes": "file:./scenes"
   },
   "devDependencies": {
     "babel-jest": "18.0.0",
