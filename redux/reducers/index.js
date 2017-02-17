@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux'
 import todo from './todo'
+import route from './route'
 
 const appReducer = combineReducers({
-    todo
+  route,
+  todo,
 });
 
 export default appReducer
