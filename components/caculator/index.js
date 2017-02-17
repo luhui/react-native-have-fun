@@ -1,2 +1,2 @@
-import Caculator from './component'
+import Caculator from './Caculator'
 export default Caculator

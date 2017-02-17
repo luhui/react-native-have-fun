@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import component from './component'
+import App from './App'
 import { Actions } from 'react-native-router-flux'
 
 const mapStateToProps = (state) => ({
@@ -19,4 +19,4 @@ const mapDispatchToProps = (dispatch) => ({
   showCaculator: () => Actions.caculator(),
   showTodo: () => Actions.todo(),
 })
-export default connect(mapStateToProps, mapDispatchToProps)(component)
+export default connect(mapStateToProps, mapDispatchToProps)(App)
